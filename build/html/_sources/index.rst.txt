@@ -18,3 +18,6 @@ Python编程基础
 `第二次课控制 <https://godblesschina.github.io/pythonjichu/第二次课控制.html>`_
 
 
+`第四次课列表元组字典 <https://godblesschina.github.io/pythonjichu/第四次课列表元组字典.html>`_
+
+
