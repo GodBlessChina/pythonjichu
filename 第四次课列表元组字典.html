@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第五次课列表元组字典</title>
+    <style>
+        .zuoye{
+            background-color: aliceblue;
+            font-size: larger;
+        }
+        .zhongdian{
+            background-color: blanchedalmond;
+            font-size: 30px;
+        }
+        .little{
+            background-color: goldenrod;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <pre>
+        1 复习字符串
+            1.1 单引号 双引号 三引号表示字符串
+            1.2 字符串类型 type
+            1.3 字符串API 
+                1.3.1 upper()
+                1.3.2 lower()
+                1.3.3 strip() lstrip() rstrip()
+                1.3.4 in 
+                1.3.5 startwith() endwith()
+                1.3.6 索引 迭代 
+                      s[-1] s[1:2]
+    <pre class="zhongdian">
+        1.4 字符串split后的数据类型
+            s = '年级:2021级,专业:软件技术,班级:2班'
+    </pre>
+        
+        2 列表类型
+            2.1 定义 arr=[2,3,4,5]
+            2.2 查看类型
+            2.3 索引 迭代 修改元组的值
+                arr[0] arr[-1] arr[1:3] arr[0]=1
+            2.4 列表API，追加 append()等
+            2.5 python内置的函数 max min sum等
+            2.6 字符串spit()，使用场景：读取csv文件
+                s = 'zhangan,男,15827001881'
+                分别打印出s中的姓名，性别，电话
+        3 元组
+            3.1参考列表
+            3.2元素的修改
+        4 字典
+            4.1 定义 d={"name":"张三","age":10,"sex":"男"}
+            4.2 取值，修改,增加
+                d['name']  d['age']=20 d['phone']=15827001881
+            4.3 迭代, 迭代器
+            4.5 字典和列表元组一起构成复杂的结构：
+                4.5 列表中嵌套字典：
+                    [{"name":"张三","age":11,"sex":"男"},
+                    {"name":"李四","age":12,"sex":"女"},
+                    {"name":"王五","age":13,"sex":"男"}
+                    ]
+                4.6 字典中嵌套列表：
+                {"name":"张三","age":10,"sex":"男",
+                    "friend":['李四','王五']}
+    <pre class="zhongdian">
+        NOTE 什么时候使用字典、什么时候使用列表和元组？
+        考虑下列几点：
+        1 想表达数组、角标索引用列表
+        2 想表达键值对索引用字典
+        3 不能修改的数据用元组
+    </pre>
+    </pre>
+
+<pre class="zuoye">
+作业：
+arr=[2,3,'年级:2021级,专业:软件技术,班级:2班',{"name":"学习委员",'age':18,'girlfriends':[{"name":"翠花","age":18},{"name":"芙蓉姐姐","age":19},{"name":"如花","age":25}]}]
+
+1.获取并打印arr的第3个元素 arr[3] 中的班级，打印结果:软件技术。提示：字符串split后变成列表。
+
+2.统计学习委员有多少个女朋友。提示：获取arr[3]后得到字典，再获取girlfriends得到列表，列表的__len__()。
+
+4.给学习委员新增一个女朋友{"name":"花花","age":18}，打印arr,print(arr)后的结果是：
+<pre class="little">
+[2,3,'年级:2021级,专业:软件技术,班级:2班',{"name":"学习委员",'age':18,'girlfriends':[{"name":"翠花","age":18},{"name":"芙蓉姐姐","age":19},{"name":"如花","age":25},{"name":"花花","age":18}]}]
+</pre>
+5.【本题检查，20秒敲完代码】获取学习委员所有女朋友的name，打印结果:
+    翠花
+    芙蓉姐姐
+    如花
+    花花
+
+6.【本题检查，10秒敲完代码】打字速度：10秒打5个python
+python python python python python
+</pre>
+</body>
+</html>
