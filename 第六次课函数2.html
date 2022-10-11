@@ -5,6 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>函数2</title>
+    <style>
+        python{
+            font-size: large;
+            font-style: italic;
+            font-family: 'Courier New', Courier, monospace;
+            color:blue;
+            background-color: beige;
+        }
+        note{
+            font-size: larger;
+            color: blue;
+        }
+    </style>
 </head>
 <body>
 <pre>
@@ -12,14 +25,136 @@
     函数定义，返回值等。
 函数的参数：
     默认值
+        def f(x=1,y=None):
+            pass
     魔法参数 *  **
+        def f(*args, **kwargv):
+            print(args)
+            print(kwargv)
+        <python>
+        ###########魔法参数*args
+        def f(*args):
+            print(args)
+        f(1,2,3,4,5,6) # *args传参的方式1
+        f(*(1,2,3,4,5,6)) # *args传参的方式2
+        </python>
+        <python>
+        ###########魔法参数*args和普通参数
+        def ff(*args,x,y):
+            print(args)
+            print(x,y)
+        ff(*(1,2,3,4,5,6),x=1,y=2) # 魔法参数和普通参数传参方式1
+        ff(1,2,3,4,5,6,x=1,y=2)
+        </python>
+
+        <python>
+        ###########魔法参数**kwargv
+        def fff(**kwargs):
+            print(kwargs)
+        fff(**{"name":"张三"})
+        </python>
+        <python>
+        ###########魔法参数*和**
+        def ffff(*args, **kwargs):
+            print(args)
+            print(kwargs)
+        ffff(1,2,3,4,5,**{"name":"张三"})
+        ffff(*(1,2,3,4,5),**{"name":"张三"})
+        </python>
+====================================================================================================
+<note>
 lambda
-函数装饰器:
+</note>
+# 没有返回值的 lambda
+<python>
+f = lambda x: print(x + 1)
+f(2)
+</python>
+
+# 有返回值的 lambda
+<python>f = lambda x, y: x * y</python>
+<python>print(f(2,5))</python>
+# 上面的式子可以写成：
+<python>print((lambda x,y:x*y)(3,5))</python>
+====================================================================================================
+
+
+
+
+<note>函数装饰器:</note>
     没有参数、没有返回值
     有参数、没有返回值
     没有参数、有返回值
+-------------[被装饰的函数]无参数无返回值---------------------
+<python>
+def wrapper(f):
+    def inner():
+        print('before')
+        f()
+        print('after')
+    return inner
+    
+@wrapper
+def f():
+    print('hello')
 
+f()
+</python>
+-------------[被装饰的函数]有参数无返回值-----------------
+<python>
+def wrapper(f):
+    def inner(x,y):
+        print('before')
+        f(x,y)
+        print('after')
+    return inner
 
+@wrapper
+def f(x,y):
+    print(x+y)
+
+f(1,2)
+</python>
+-----------[被装饰的函数]有参数有返回值--------------------
+<python>
+def wrapper(f):
+    def inner(x,y):
+        print('执行前')
+        res = f(x,y)
+        print("执行后")
+        return res
+    return inner
+
+@wrapper
+def f(x,y):
+    print('f执行')
+    return x+y
+
+res = f(1,2)
+print(res)
+</python>
+------------装饰器本身带参数,[被装饰的函数]有参数有返回值------------------
+<python>
+def wrapper_param(param):
+    def wrapper_func(func):
+        def inner(func_param1,func_param2):
+            print(f'装饰器的参数{param}')
+            print('执行前')
+            res = func(func_param1, func_param2)
+            print('执行后')
+            return res
+        return inner
+    return wrapper_func
+
+@wrapper_param('hello')
+def f(x,y):
+    print("f执行")
+    return x+y
+
+res = f(1,2)
+print(res)
+</python>
+---------------------------------------
 作业：
 1 使用函数装饰器给函数计时 。 5分钟
 2 编写一个函数add(x,y)，该函数返回所有参数的和。
@@ -30,6 +165,9 @@ lambda
 【选做】2 求斐波拉契数列，看看哪种效率高：
     递归
     for循环
+
+<a target="_blank" href="计时器.py">第1题参考答案</a>
+<a target="_blank" href="装饰器验证参数.py">第2题参考答案</a>
 </pre>
 </body>
 </html>
