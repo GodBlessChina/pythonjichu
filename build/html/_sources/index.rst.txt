@@ -12,21 +12,27 @@ Python编程基础
 `提交作业的学生 <https://godblesschina.github.io/pythonjichu/提交作业的学生.html>`_
 
 
-`第一次课Python概述 <https://godblesschina.github.io/pythonjichu/第一次课Python概述.html>`_
+`第1次课Python概述 <https://godblesschina.github.io/pythonjichu/第1次课Python概述.html>`_
 
 
-`第三次课异常字符串 <https://godblesschina.github.io/pythonjichu/第三次课异常字符串.html>`_
+`第2次课控制 <https://godblesschina.github.io/pythonjichu/第2次课控制.html>`_
 
 
-`第二次课控制 <https://godblesschina.github.io/pythonjichu/第二次课控制.html>`_
+`第3次课异常字符串 <https://godblesschina.github.io/pythonjichu/第3次课异常字符串.html>`_
 
 
-`第五次课函数1 <https://godblesschina.github.io/pythonjichu/第五次课函数1.html>`_
+`第4次课列表元组字典 <https://godblesschina.github.io/pythonjichu/第4次课列表元组字典.html>`_
 
 
-`第六次课函数2 <https://godblesschina.github.io/pythonjichu/第六次课函数2.html>`_
+`第5次课函数1 <https://godblesschina.github.io/pythonjichu/第5次课函数1.html>`_
 
 
-`第四次课列表元组字典 <https://godblesschina.github.io/pythonjichu/第四次课列表元组字典.html>`_
+`第6次课函数2 <https://godblesschina.github.io/pythonjichu/第6次课函数2.html>`_
+
+
+`第7次课文件读写1 <https://godblesschina.github.io/pythonjichu/第7次课文件读写1.html>`_
+
+
+`第8次课文件读写2 <https://godblesschina.github.io/pythonjichu/第8次课文件读写2.html>`_
 
 
