@@ -1,0 +1,26 @@
+note{
+    font-size: larger;
+    color:blue;
+}
+todo{
+    font-size: larger;
+    color:blueviolet;
+}
+log{
+    font-size: smaller;
+    color: burlywood;
+}
+.b{
+    /* div变成一个边框 */
+    border:solid 5px chocolate;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+java{
+    font-style: italic;
+    color: cadetblue;
+}
+a{
+    font-size: larger;
+    font-style: italic;
+}
