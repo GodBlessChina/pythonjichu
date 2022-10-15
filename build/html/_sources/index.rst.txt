@@ -21,6 +21,9 @@ Python编程基础
 `第3次课异常字符串 <https://godblesschina.github.io/pythonjichu/第3次课异常字符串.html>`_
 
 
+`第4次课2022年9月28日作业 <https://godblesschina.github.io/pythonjichu/第4次课2022年9月28日作业.html>`_
+
+
 `第4次课列表元组字典 <https://godblesschina.github.io/pythonjichu/第4次课列表元组字典.html>`_
 
 
