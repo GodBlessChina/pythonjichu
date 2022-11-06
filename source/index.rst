@@ -36,6 +36,12 @@ Python编程基础
 `第7次课文件读写1 <https://godblesschina.github.io/pythonjichu/第7次课文件读写1.html>`_
 
 
-`第8次课文件读写2 <https://godblesschina.github.io/pythonjichu/第8次课文件读写2.html>`_
+`第8次课数据可视化turtle <https://godblesschina.github.io/pythonjichu/第8次课数据可视化turtle.html>`_
+
+
+`第9次课numpy <https://godblesschina.github.io/pythonjichu/第9次课numpy.html>`_
+
+
+`第X次课文件读写2 <https://godblesschina.github.io/pythonjichu/第X次课文件读写2.html>`_
 
 
