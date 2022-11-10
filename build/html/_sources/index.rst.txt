@@ -12,6 +12,9 @@ Python编程基础
 `提交作业的学生 <https://godblesschina.github.io/pythonjichu/提交作业的学生.html>`_
 
 
+`第10次课matplotlib <https://godblesschina.github.io/pythonjichu/第10次课matplotlib.html>`_
+
+
 `第1次课Python概述 <https://godblesschina.github.io/pythonjichu/第1次课Python概述.html>`_
 
 
