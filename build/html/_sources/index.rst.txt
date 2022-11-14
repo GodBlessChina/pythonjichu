@@ -6,6 +6,9 @@
 Python编程基础
 ==============================
 
+`pip指令 <https://godblesschina.github.io/pythonjichu/pip指令.html>`_
+
+
 `作业9月21号答案作者郭宇航 <https://godblesschina.github.io/pythonjichu/作业9月21号答案作者郭宇航.html>`_
 
 
