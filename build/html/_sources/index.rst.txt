@@ -18,6 +18,9 @@ Python编程基础
 `第10次课matplotlib <https://godblesschina.github.io/pythonjichu/第10次课matplotlib.html>`_
 
 
+`第11次课面向对象pandas <https://godblesschina.github.io/pythonjichu/第11次课面向对象pandas.html>`_
+
+
 `第1次课Python概述 <https://godblesschina.github.io/pythonjichu/第1次课Python概述.html>`_
 
 
@@ -48,6 +51,6 @@ Python编程基础
 `第9次课numpy <https://godblesschina.github.io/pythonjichu/第9次课numpy.html>`_
 
 
-`第X次课文件读写2 <https://godblesschina.github.io/pythonjichu/第X次课文件读写2.html>`_
+`类属性私有属性gettersetter方法静态方法类方法继承抽象类抽象方法 <https://godblesschina.github.io/pythonjichu/类属性私有属性gettersetter方法静态方法类方法继承抽象类抽象方法.html>`_
 
 
